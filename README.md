@@ -41,3 +41,13 @@ For better readability, add automatic carriage returns by typing
 ```
 Ctrl+A Z U
 ```
+
+## Memory Space
+
+Generally, the amount of memory on the target device is highly limited. The space for the memory allocation library is statically defined in unikraft/plat/msp430fr5994/msp430fr5994.ld with the lines
+```
+_my_fram_begin = .;
+. = . + 0x2000;
+_my_fram_end = .;
+```
+Depending on the size of your target application, you may want to increase or decrease this size.
