@@ -1,0 +1,9 @@
+[submodule "unikraft"]
+	path = unikraft
+	url = git@github.com:OMA-NVM/libnvmpp-unikraft.git
+[submodule "libs"]
+	path = libs
+	url = git@github.com:OMA-NVM/libnvmpp-libs.git
+[submodule "apps/app-casestudy"]
+	path = apps/app-casestudy
+	url = git@github.com:OMA-NVM/libnvmpp-app.git
