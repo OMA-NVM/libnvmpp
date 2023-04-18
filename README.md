@@ -5,6 +5,7 @@ This repository contains all required sources to run a modified instance of Unik
 ## Building
 First, initialize all submodules by
 ```
+git submodule update --init
 ```
 If you want to configure, ccompile and flash the software on your own computer, several dependencies are required. To ease this setup, a Dockerfile is provided to setup the dependencies. Just run
 ```
